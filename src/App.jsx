@@ -1,11 +1,14 @@
 import './App.css'
+import Login from './FCOMP/Login'
 import Register from './FCOMP/Register'
 
 function App() {
   return (
     <>
-<Register></Register>      
+      <Register></Register> <br />
+      <Login></Login>
     </>
+
   )
 }
 
